@@ -1,0 +1,20 @@
+@import './vendor/normalize.css';
+@import './vendor/fonts.css';
+
+.page {
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.content {
+    display: flex;
+    margin: auto;
+    height: 100%;
+    max-width: 1600px;
+    min-width: 800px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 60px;
+}
