@@ -1,0 +1,18 @@
+.article {
+  /*default parameter for artice*/
+  --fh: 'serif'; /* font title*/
+  --fp: 'sans-serif'; /*font-text*/
+  --fsh: 30px; /*font-size title*/
+  --fsp: 18px; /*font-size text*/
+  --fwh: 700; /*font-weight title*/
+  --c: #312a4e; /*color*/
+  --flpbc: #ffab6b; /*first letter text background color*/
+  --flpfs: 30px; /*flt font size*/
+  --flpfw: 700; /*flt font weight*/
+  --bc: #312a4e; /*border color*/
+  --fsfh: 60px; /*font-size figure title*/
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}

@@ -1,0 +1,14 @@
+.article--text-link {
+  --atctl: var(--darkblue-color);
+  color: var(--atctl, --cd);
+}
+
+.article--text-link:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.article--text-link:focus-visible {
+  outline: 1px solid var(--atctl, --cd);
+  padding-inline: 4px;
+}

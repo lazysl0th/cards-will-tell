@@ -1,0 +1,5 @@
+.content-section-d {
+  --bgcs: var(--dark-color, #171717);
+  --tcs: var(--gray-color, #b3b3b3);
+  --bcs: var(--gray-color, #b3b3b3);
+}

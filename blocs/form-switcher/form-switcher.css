@@ -1,0 +1,10 @@
+.form-switcher {
+  /*default parameter for artice*/
+  --fwla: 700; /*font weight label active*/
+  --cbla: #ffab6b; /*background color label active */
+  --fvc: #312a4e; /*focus-visible color*/
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

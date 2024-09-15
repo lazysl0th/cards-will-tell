@@ -1,0 +1,28 @@
+.form-switcher--label {
+  align-self: center;
+}
+
+.form-switcher--label:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.form-switcher--radio:checked + .form-switcher--label {
+  --fwla: var(--accent-fw);
+  --cbla: var(--orange-color);
+
+  font-weight: var(--fwla);
+  background: linear-gradient(var(--cbla), var(--cbla)) 0 12px / 100% 25%
+    no-repeat;
+  padding-inline: 4px;
+}
+
+.form-switcher--radio:focus-visible + .form-switcher--label {
+  --fvc: var(--darkblue-color);
+
+  outline: 1px solid var(--fvc);
+  outline-offset: -4px;
+  padding: 3px 8px;
+  background: linear-gradient(var(--cbla), var(--cbla)) 0 15px / 100% 30%
+    no-repeat;
+}

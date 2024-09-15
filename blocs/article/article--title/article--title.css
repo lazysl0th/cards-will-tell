@@ -1,0 +1,12 @@
+.article--title {
+  --fh: var(--accent-font);
+  --fsh: var(--h2-size);
+  --fwh: var(--accent-fw);
+
+  font-family: var(--fh);
+  font-size: var(--fsh);
+  font-weight: var(--fwh);
+  line-height: 27px;
+  text-align: center;
+  margin: 0;
+}

@@ -1,0 +1,6 @@
+.footer {
+  padding-block: 36px;
+  border-block-start: 1px solid #312a4e;
+  display: flex;
+  justify-content: center;
+}

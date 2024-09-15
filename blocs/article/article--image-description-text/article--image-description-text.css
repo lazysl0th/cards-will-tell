@@ -1,0 +1,10 @@
+.article--image-description-text {
+  --ffp: var(--main-font);
+  --fsfp: var(--main-size);
+
+  font-family: var(--ffp, --sfp);
+  font-size: var(--fsfp, --fsp);
+  line-height: 90%;
+  text-align: center;
+  margin: 0;
+}

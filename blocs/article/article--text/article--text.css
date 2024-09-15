@@ -1,0 +1,15 @@
+.article--text {
+  margin: 0;
+}
+
+.article--text:first-of-type::first-letter {
+  --flpbc: var(--orange-color);
+  --flpfs: var(--h2-size);
+  --flpfw: var(--accent-fw);
+
+  background-color: var(--flpbc);
+  font-size: var(--flpfs);
+  font-weight: var(--flpfw);
+  padding: 0 4px;
+  margin-inline: -4px 4px;
+}

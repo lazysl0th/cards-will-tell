@@ -33,7 +33,7 @@
   font-family: 'STIX Two Text';
   src:
     url(./fonts/STIXTwoText-SemiBold.ttf) format('truetype')
-    url(./fonts/STIXTwoText-SemiBold.woff2) format('woff2'),
+      url(./fonts/STIXTwoText-SemiBold.woff2) format('woff2'),
     url(./fonts/STIXTwoText-SemiBold.woff) format('woff');
   font-weight: 600;
   font-display: swap;

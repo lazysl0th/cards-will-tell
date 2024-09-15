@@ -1,0 +1,6 @@
+.header--menu {
+  --bchm: var(--bcs);
+
+  padding: 19px 72px;
+  border-block: 1px solid var(--bchm, #312a4e);
+}

@@ -1,0 +1,14 @@
+.article--image-description-title {
+  --ffh: var(--accent-font);
+  --fsfh: var(--h3-size);
+  --acdtlt: var(--orange-color);
+
+  font-family: var(--ffh, --fh);
+  font-size: var(--fsfh);
+  line-height: 90%;
+  text-align: center;
+  margin: 0;
+  padding: 4px;
+  background: linear-gradient(var(--fsctdll, #ffab6b), var(--fsctdll, #ffab6b))
+    199px 36px / 53% 25% no-repeat;
+}

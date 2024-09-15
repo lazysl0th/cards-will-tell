@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru" class="page">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,14 +16,185 @@
       property="og:url"
       content="https://lazysl0th.github.io/cards-will-tell/"
     />
-      <!--<meta property="og:image" content="/images/og.png" /> добавить в случае появления информации-->
-      <link rel="icon" href="./images/favicon.ico" sizes="any" />
-      <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
-      <link rel="apple-touch-icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./vendor/fonts.css" />
+    <!--<meta property="og:image" content="/images/og.png" /> добавить в случае появления информации-->
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Карты подскажут</title>
   </head>
-  <body class="content">
-  
+  <body class="page">
+    <header class="header content-section">
+      <h1 class="header--title">Карты подскажут</h1>
+      <form class="form-switcher header--menu">
+        <a class="form-switcher--link">
+          <img
+            class="form-switcher--image"
+            src="./images/logo.svg"
+            alt="Логотип"
+          />
+        </a>
+        <fieldset class="form-switcher--fieldset">
+          <input
+            type="radio"
+            value="dark-theme"
+            id="dark-theme"
+            class="form-switcher--radio visually-hidden"
+            name="theme"
+          />
+          <label class="form-switcher--label" for="dark-theme">Тёмная</label>
+          <input
+            type="radio"
+            value="light-theme"
+            id="light-theme"
+            class="form-switcher--radio visually-hidden"
+            name="theme"
+            checked
+          />
+          <label class="form-switcher--label" for="light-theme">Светлая</label>
+        </fieldset>
+      </form>
+    </header>
+    <main class="content">
+      <section class="intro content-section">
+        <article class="article">
+          <header class="article--header">
+            <h2 class="article--title">Креативный подход к решению проблем</h2>
+          </header>
+          <p class="article--text">
+            Творческие кризисы, кажется, рано или поздно испытывает любой
+            человек. Часто бывает так, что вы сталкиваетесь с проблемой, не
+            можете решить её с первого раза и начинаете думать, что вообще ни на
+            что не способны. Мозг запоминает эту модель поведения, и на
+            следующий день вам не хочется делать вообще ничего — ведь всё равно
+            ничего не получится.
+          </p>
+          <p class="article--text">
+            Как выйти из такого застоя? Есть разные варианты, мы поговорим об
+            одном из самых креативных — колоде карт.
+          </p>
+        </article>
+      </section>
+      <section class="about content-section">
+        <article class="about--article article article-wp">
+          <header class="article--header">
+            <h2 class="article--title">Что это за колода</h2>
+          </header>
+          <p class="article--text">
+            Тут могло бы быть что-то про пользу игры в «Дурака» или о высших
+            арканах Таро, но у нас на примете другая колода. Она называется
+            Oblique Strategies, или «Обходные стратегии». Первую колоду ещё в
+            1975 году создали композитор, музыкальный продюсер и один из
+            основателей жанра эмбиент Брайан Ино и мультимедиа-художник Питер
+            Шмидт.
+          </p>
+          <figure class="article--figure">
+            <picture>
+              <source
+                srcset="
+                  ./images/cards-1x.avif 1x,
+                  ./images/cards-2x.avif 2x,
+                  ./images/cards-3x.avif 3x
+                "
+                type="image/avif"
+              />
+              <source
+                srcset="
+                  ./images/cards-1x.webp 1x,
+                  ./images/cards-2x.webp 2x,
+                  ./images/cards-3x.webp 3x
+                "
+                type="image/webp"
+              />
+              <img
+                class="article--image"
+                src="./images/cards-1x.png"
+                srcset="./images/cards-2x.png 2x, ./images/cards-3x.png 3x"
+                alt="Колода Oblique Strategies"
+              />
+            </picture>
+            <figcaption class="article--image-description">
+              Колода Oblique Strategies
+            </figcaption>
+          </figure>
+          <p class="article--text">
+            Oblique Strategies в основном используют музыканты, но колода
+            подходит для преодоления творческого кризиса в любой сфере. Её
+            рекомендуют писателям, продакт-менеджерам, художникам и
+            разработчикам.
+          </p>
+          <p class="article--text">
+            Колода состоит из ста с лишним карточек, на которых написано всего
+            по одной фразе. Часто — довольно абстрактной. Например, «Какую
+            ошибку вы совершили в прошлый раз?» или «Замените двусмысленность на
+            конкретику», или даже «Добавьте что-то ещё». Эти фразы и надо
+            применять к проблеме или творческому блоку. Каким именно способом?
+            Решаете только вы.
+          </p>
+        </article>
+      </section>
+      <section class="how-work content-section">
+        <article class="about--article article">
+          <header class="article--header">
+            <h2 class="article--title">Как работают «обходные стратегии»</h2>
+          </header>
+          <p class="article--text">
+            Вот что сам Брайан Ино рассказывает о создании Oblique Strategies:
+          </p>
+          <blockquote class="article--quote">
+            «Эти карты появились, потому что я оказывался в рабочих ситуациях
+            (особенно в звукозаписывающих студиях), когда из-за паники быстро
+            забывал, что кроме самых очевидных решений были и другие —
+            косвенные. И часто именно такие неочевидные способы выдавали гораздо
+            более интересные результаты, чем решения „в лоб“».
+          </blockquote>
+          <p class="article--text">
+            Таким образом, колода Ино поощряет нас видеть препятствия не как
+            тупики, а как отправные точки для поиска более интересных решений.
+          </p>
+          <p class="article--text">
+            И кстати, сейчас необязательно охотиться за редкими физическими
+            колодами Oblique Strategies — тем более, что их моментально
+            разбирают фанаты Ино. Есть довольно симпатичные
+            <a class="article--text-link" href="">веб-сайты</a> с
+            диджитал-эквивалентами карточек и приложения для
+            <a class="article--text-link" href="">iOS</a> и
+            <a class="article--text-link" href="">Android</a>.
+          </p>
+          <figure class="article--figure article--figure-wi">
+            <figcaption
+              class="article--image-description article--image-description-wi"
+            >
+              <h3 class="article--image-description-title">
+                Use an old <span>idea</span>
+              </h3>
+              <p class="article--image-description-text">
+                Воспользуйтесь старой идеей
+              </p>
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+      <section class="who-used content-section">
+        <article class="about--article article">
+          <header class="article--header">
+            <h2 class="article--title">Кто пользовался Oblique Strategies</h2>
+          </header>
+          <ul class="article--list">
+            <li class="article--list-item">
+              Дэвид Боуи во время записи Берлинской трилогии;
+            </li>
+            <li class="article--list-item">
+              Talking Heads и Дэвид Бирн в сольной карьере;
+            </li>
+            <li class="article--list-item">Coldplay;</li>
+            <li class="article--list-item">MGMT.</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+    <footer class="footer content-section">
+      <h4 class="footer--title">vёrstka</h4>
+    </footer>
   </body>
 </html>
