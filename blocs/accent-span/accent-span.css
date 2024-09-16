@@ -1,0 +1,23 @@
+.accent-span {
+  --bgcao: var(--asbgc);
+  --bgcdot1: var(--asbgcd1);
+  --bgcdot2: var(--asbgcd2);
+  --pba: var(--pabgla, 36px);
+  --sba: var(--sbgala, 25%);
+
+  background:
+    linear-gradient(var(--bgcao), var(--bgcao)) 0 var(--pba) / 100% var(--sba)
+      no-repeat,
+    repeating-linear-gradient(
+      var(--bgcdot1) 0 1px,
+      transparent 1px 2px,
+      var(--bgcdot1) 2px 3px
+    ),
+    repeating-linear-gradient(
+        90deg,
+        transparent 0 1px,
+        var(--bgcdot2) 1px 2px,
+        transparent 2px 3px
+      )
+      0 var(--pba) / 100% var(--sba) no-repeat;
+}

@@ -2,4 +2,12 @@
   --bgcs: var(--dark-color, #171717);
   --tcs: var(--gray-color, #b3b3b3);
   --bcs: var(--gray-color, #b3b3b3);
+  --flspbgc: var(--transparent-color, #ffab6b00);
+  --flspbc: var(--bcs);
+  --lcs: var(--tcs);
+  --lasffw: var(--accent-fw);
+  --asbgc: transparent;
+  --asbgcd1: var(--bgcs);
+  --asbgcd2: var(--gray-color-transprent);
+  --lstsul: url(../../../images/marker-dark.svg);
 }

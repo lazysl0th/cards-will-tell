@@ -1,8 +1,10 @@
 .form-switcher {
-  /*default parameter for artice*/
-  --fwla: 700; /*font weight label active*/
-  --cbla: #ffab6b; /*background color label active */
-  --fvc: #312a4e; /*focus-visible color*/
+  /*parameter for fs*/
+  --fwla: var(--lasffw, 700); /*font weight label active*/
+  --bgcla: var(--lasfbgc, #ffab6b); /*background color la */
+  --pabgla: 12px; /*padding accent background la*/
+  --sbgala: 50%; /*size bg accent la*/
+  --fvc: var(--darkblue-color, #312a4e); /*focus-visible color*/
 
   display: flex;
   justify-content: space-between;

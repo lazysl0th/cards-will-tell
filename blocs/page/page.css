@@ -5,7 +5,9 @@
   /*цвета для текста*/
   --darkblue-color: #312a4e;
   --gray-color: #b3b3b3;
+  --gray-color-transprent: #b3b3b399;
   --orange-color: #ffab6b;
+  --transparent-color: #ffab6b00;
   /*шрифты*/
   --main-font: 'Raleway';
   --accent-font: 'STIX Two Text';

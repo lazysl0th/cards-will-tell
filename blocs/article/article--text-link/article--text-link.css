@@ -1,6 +1,5 @@
 .article--text-link {
-  --atctl: var(--darkblue-color);
-  color: var(--atctl, --cd);
+  color: var(--lc);
 }
 
 .article--text-link:hover {
@@ -9,6 +8,6 @@
 }
 
 .article--text-link:focus-visible {
-  outline: 1px solid var(--atctl, --cd);
+  outline: 1px solid var(--lc);
   padding-inline: 4px;
 }

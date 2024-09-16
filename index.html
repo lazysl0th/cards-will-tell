@@ -24,7 +24,7 @@
     <title>Карты подскажут</title>
   </head>
   <body class="page">
-    <header class="header content-section">
+    <header class="header content-section content-section-d">
       <h1 class="header--title">Карты подскажут</h1>
       <form class="form-switcher header--menu">
         <a class="form-switcher--link">
@@ -42,7 +42,11 @@
             class="form-switcher--radio visually-hidden"
             name="theme"
           />
-          <label class="form-switcher--label" for="dark-theme">Тёмная</label>
+          <span class="form-switcher--span"
+            ><label class="form-switcher--label" for="dark-theme">
+              Тёмная
+            </label></span
+          >
           <input
             type="radio"
             value="light-theme"
@@ -51,12 +55,16 @@
             name="theme"
             checked
           />
-          <label class="form-switcher--label" for="light-theme">Светлая</label>
+          <span class="form-switcher--span accent-span"
+            ><label class="form-switcher--label" for="light-theme"
+              >Светлая</label
+            ></span
+          >
         </fieldset>
       </form>
     </header>
     <main class="content">
-      <section class="intro content-section">
+      <section class="intro content-section content-section-d">
         <article class="article">
           <header class="article--header">
             <h2 class="article--title">Креативный подход к решению проблем</h2>
@@ -75,7 +83,7 @@
           </p>
         </article>
       </section>
-      <section class="about content-section">
+      <section class="about content-section content-section-d">
         <article class="about--article article article-wp">
           <header class="article--header">
             <h2 class="article--title">Что это за колода</h2>
@@ -91,25 +99,17 @@
           <figure class="article--figure">
             <picture>
               <source
-                srcset="
-                  ./images/cards-1x.avif 1x,
-                  ./images/cards-2x.avif 2x,
-                  ./images/cards-3x.avif 3x
-                "
+                srcset="./images/cards-1x.avif 1x, ./images/cards-2x.avif 2x"
                 type="image/avif"
               />
               <source
-                srcset="
-                  ./images/cards-1x.webp 1x,
-                  ./images/cards-2x.webp 2x,
-                  ./images/cards-3x.webp 3x
-                "
+                srcset="./images/cards-1x.webp 1x, ./images/cards-2x.webp 2x"
                 type="image/webp"
               />
               <img
                 class="article--image"
                 src="./images/cards-1x.png"
-                srcset="./images/cards-2x.png 2x, ./images/cards-3x.png 3x"
+                srcset="./images/cards-1x.png, ./images/cards-2x.png 2x"
                 alt="Колода Oblique Strategies"
               />
             </picture>
@@ -133,7 +133,7 @@
           </p>
         </article>
       </section>
-      <section class="how-work content-section">
+      <section class="how-work content-section content-section-d">
         <article class="about--article article">
           <header class="article--header">
             <h2 class="article--title">Как работают «обходные стратегии»</h2>
@@ -166,7 +166,7 @@
               class="article--image-description article--image-description-wi"
             >
               <h3 class="article--image-description-title">
-                Use an old <span>idea</span>
+                Use an <span class="article--span accent-span">old idea</span>
               </h3>
               <p class="article--image-description-text">
                 Воспользуйтесь старой идеей
@@ -175,7 +175,7 @@
           </figure>
         </article>
       </section>
-      <section class="who-used content-section">
+      <section class="who-used content-section content-section-d">
         <article class="about--article article">
           <header class="article--header">
             <h2 class="article--title">Кто пользовался Oblique Strategies</h2>
@@ -193,7 +193,7 @@
         </article>
       </section>
     </main>
-    <footer class="footer content-section">
+    <footer class="footer content-section content-section-d">
       <h4 class="footer--title">vёrstka</h4>
     </footer>
   </body>

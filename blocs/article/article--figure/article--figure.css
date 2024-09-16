@@ -1,13 +1,11 @@
 .article--figure {
-  --bc: var(--bcs);
-
   margin: 0;
-  border-block-end: 1px solid var(--bc);
+  border-block-end: 1px solid var(--bcfa);
 }
 
 .article--figure-wi {
   display: flex;
-  border: 1px solid var(--bc);
+  border: 1px solid var(--bcfa);
   min-height: 972px;
   align-items: center;
 }

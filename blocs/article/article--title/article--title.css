@@ -1,8 +1,4 @@
 .article--title {
-  --fh: var(--accent-font);
-  --fsh: var(--h2-size);
-  --fwh: var(--accent-fw);
-
   font-family: var(--fh);
   font-size: var(--fsh);
   font-weight: var(--fwh);

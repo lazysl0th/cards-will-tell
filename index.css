@@ -22,7 +22,11 @@
 
 @import url(./blocs/form-switcher/form-switcher--fieldset/form-switcher--fieldset.css);
 
+@import url(./blocs/form-switcher/form--swithcer-radio/form--switcher-radio.css);
+
 @import url(./blocs/form-switcher/form-switcher--label/form-switcher--label.css);
+
+@import url(./blocs/accent-span/accent-span.css);
 
 @import url(./blocs/visually-hidden/visually-hidden.css);
 
@@ -45,6 +49,8 @@
 @import url(./blocs/article/article--text-link/article--text-link.css);
 
 @import url(./blocs/article/article--image-description-title/article--image-description-title.css);
+
+@import url(./blocs/article/article--span/article--span.css);
 
 @import url(./blocs/article/article--image-description-text/article--image-description-text.css);
 
