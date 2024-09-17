@@ -1,20 +1,24 @@
 .content--list {
-  margin: 0;
-  padding-inline-start: 40px;
+  padding: 0 0 0 40px;
   list-style: none;
+}
+
+.content--list li {
   position: relative;
 }
 
-.content--list > ::before {
+.content--list li::before {
   content: '';
-  width: 15px;
-  height: 15px;
-  background-image: var(--list-style-url);
-  background-size: cover;
   position: absolute;
-  left: 15px;
-  margin-block-start: 3px;
-  box-sizing: border-box;
+  inline-size: 15px;
+  block-size: 15px;
+  margin-block-start: -7.5px;
+  background-image: var(--list-style-url);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  inset-block-start: 50%;
+  inset-inline-start: -25px;
 }
 
 .content--list > :not(:last-child) {

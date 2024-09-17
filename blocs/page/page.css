@@ -25,6 +25,7 @@
   --list-style-url: url(../../../images/marker-light.svg);
 
   width: 100%;
+  margin: 0 auto;
   background-color: var(--bg-color);
   font-family: var(--main-font);
   font-size: var(--main-size);

@@ -1,20 +1,20 @@
 .colored-text {
   position: relative;
+  display: inline-block;
   white-space: nowrap;
 }
 
 .colored-text::after {
   content: '';
   position: absolute;
-  width: 105%;
-  height: 25%;
-  top: 55%;
-  left: -6px;
+  inline-size: calc(100% + 8px);
+  block-size: 0.5ch;
+  inset-block-end: 0.4ch;
+  inset-inline-start: -4px;
   background-color: var(--accent-color);
   z-index: -1;
-  }
-
- .theme-dark .colored-text::after {
-    background-image: url(../../images/pattern.svg);
 }
-  
+
+.theme-dark .colored-text::after {
+  background-image: url(../../images/pattern.svg);
+}

@@ -1,9 +1,9 @@
 .header--theme-toggler {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    column-gap: 20px;
-    padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  column-gap: 20px;
+  padding: 0;
 }

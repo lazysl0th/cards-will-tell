@@ -1,6 +1,6 @@
 .heading {
   font-family: var(--accent-font, serif);
-  font-weight: var(--accent-fw, 700);
+  font-weight: var(--accent-fw, 600);
   line-height: 90%;
   text-align: center;
 }

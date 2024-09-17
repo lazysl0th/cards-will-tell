@@ -1,7 +1,6 @@
 .content--figure {
   margin: 7% 0;
-  border-block-end: 1px solid var(--text-color);
-  width: calc(100% + 10vi);
+  inline-size: calc(100% + 10vi);
   position: relative;
   right: 5vi;
 }

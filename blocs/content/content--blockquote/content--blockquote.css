@@ -1,7 +1,6 @@
 .content--blockquote {
-  width: 75%;
-  margin: 0 auto;
+  inline-size: 75%;
+  margin: 0 auto 1.5em;
   line-height: 200%;
   font-style: italic;
-  padding-block-end: 1.5em;
 }

@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="./index.css" />
     <title>Карты подскажут</title>
   </head>
-  <body class="page theme-dark">
+  <body class="page">
     <header class="header">
       <h1 class="content-section heading header--title">Карты подскажут</h1>
       <nav class="header--menu content-section">
@@ -33,10 +33,21 @@
           </svg>
         </div>
         <ul class="header--theme-toggler">
-          <li class=""><button class="header--theme-button header--theme-button-dark">Тёмная</button></li>
-          <li class=""><button class="header--theme-button header--theme-button-is-active" >Светлая</button></li>
+          <li class="">
+            <button class="header--theme-button header--theme-button-dark">
+              Тёмная
+            </button>
+          </li>
+          <li class="">
+            <button
+              class="header--theme-button header--theme-button-is-active"
+              disabled
+            >
+              Светлая
+            </button>
+          </li>
         </ul>
-    </nav>
+      </nav>
     </header>
     <main class="content">
       <section class="content-section">

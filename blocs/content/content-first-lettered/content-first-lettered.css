@@ -7,6 +7,8 @@
   display: inline-block;
 }
 
-.theme-dark .content-first-lettered .content--paragraph:first-of-type::first-letter {
+.theme-dark
+  .content-first-lettered
+  .content--paragraph:first-of-type::first-letter {
   border: 1px solid var(--text-color);
 }

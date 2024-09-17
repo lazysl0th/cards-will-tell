@@ -1,6 +1,7 @@
 .header--menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-block: 1px solid var(--text-color);
   padding-block: 20px;
 }
