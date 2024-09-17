@@ -1,13 +1,7 @@
 .footer {
-  padding-block: 36px;
-  border-block-start: 1px solid #312a4e;
+  margin-block-start: 10%;
+  padding-block: 2.5%;
+  border-block-start: 1px solid var(--text-color);
   display: flex;
   justify-content: center;
-}
-
-@media screen and (max-width: 635px) {
-
-  .footer {
-    padding-block: 9px;
-  }
 }

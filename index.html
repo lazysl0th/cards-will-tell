@@ -23,80 +23,61 @@
     <link rel="stylesheet" href="./index.css" />
     <title>Карты подскажут</title>
   </head>
-  <body class="page">
-    <header class="header content-section content-section-d">
-      <h1 class="header--title">Карты подскажут</h1>
-      <form class="form-switcher header--menu">
-        <a class="form-switcher--link">
-          <img
-            class="form-switcher--image"
-            src="./images/logo.svg"
-            alt="Логотип"
-          />
-        </a>
-        <fieldset class="form-switcher--fieldset">
-          <input
-            type="radio"
-            value="dark-theme"
-            id="dark-theme"
-            class="form-switcher--radio visually-hidden"
-            name="theme"
-          />
-          <span class="form-switcher--span"
-            ><label class="form-switcher--label" for="dark-theme">
-              Тёмная
-            </label></span
-          >
-          <input
-            type="radio"
-            value="light-theme"
-            id="light-theme"
-            class="form-switcher--radio visually-hidden"
-            name="theme"
-            checked
-          />
-          <span class="form-switcher--span accent-span"
-            ><label class="form-switcher--label" for="light-theme"
-              >Светлая</label
-            ></span
-          >
-        </fieldset>
-      </form>
+  <body class="page theme-dark">
+    <header class="header">
+      <h1 class="content-section heading header--title">Карты подскажут</h1>
+      <nav class="header--menu content-section">
+        <div class="header--logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="135" height="25">
+            <use href="./images/logo.svg"></use>
+          </svg>
+        </div>
+        <ul class="header--theme-toggler">
+          <li class=""><button class="header--theme-button header--theme-button-dark">Тёмная</button></li>
+          <li class=""><button class="header--theme-button header--theme-button-is-active" >Светлая</button></li>
+        </ul>
+    </nav>
     </header>
     <main class="content">
-      <section class="intro content-section content-section-d">
-        <article class="article">
-          <header class="article--header">
-            <h2 class="article--title">Креативный подход к решению проблем</h2>
+      <section class="content-section">
+        <article class="">
+          <header class="">
+            <h2 class="content--title heading">
+              Креативный подход к решению проблем
+            </h2>
           </header>
-          <p class="article--text">
-            Творческие кризисы, кажется, рано или поздно испытывает любой
-            человек. Часто бывает так, что вы сталкиваетесь с проблемой, не
-            можете решить её с первого раза и начинаете думать, что вообще ни на
-            что не способны. Мозг запоминает эту модель поведения, и на
-            следующий день вам не хочется делать вообще ничего — ведь всё равно
-            ничего не получится.
-          </p>
-          <p class="article--text">
-            Как выйти из такого застоя? Есть разные варианты, мы поговорим об
-            одном из самых креативных — колоде карт.
-          </p>
+          <div class="content--text content-first-lettered">
+            <p class="content--paragraph">
+              Творческие кризисы, кажется, рано или поздно испытывает любой
+              человек. Часто бывает так, что вы сталкиваетесь с проблемой, не
+              можете решить её с первого раза и начинаете думать, что вообще ни
+              на что не способны. Мозг запоминает эту модель поведения, и на
+              следующий день вам не хочется делать вообще ничего — ведь всё
+              равно ничего не получится.
+            </p>
+            <p class="content--paragraph">
+              Как выйти из такого застоя? Есть разные варианты, мы поговорим об
+              одном из самых креативных — колоде карт.
+            </p>
+          </div>
         </article>
       </section>
-      <section class="about content-section content-section-d">
-        <article class="about--article article article-wp">
-          <header class="article--header">
-            <h2 class="article--title">Что это за колода</h2>
+      <section class="content-section">
+        <article class="">
+          <header class="">
+            <h2 class="content--title heading">Что это за колода</h2>
           </header>
-          <p class="article--text">
-            Тут могло бы быть что-то про пользу игры в «Дурака» или о высших
-            арканах Таро, но у нас на примете другая колода. Она называется
-            Oblique Strategies, или «Обходные стратегии». Первую колоду ещё в
-            1975 году создали композитор, музыкальный продюсер и один из
-            основателей жанра эмбиент Брайан Ино и мультимедиа-художник Питер
-            Шмидт.
-          </p>
-          <figure class="article--figure">
+          <div class="content--text content-first-lettered">
+            <p class="content--paragraph">
+              Тут могло бы быть что-то про пользу игры в «Дурака» или о высших
+              арканах Таро, но у нас на примете другая колода. Она называется
+              Oblique Strategies, или «Обходные стратегии». Первую колоду ещё в
+              1975 году создали композитор, музыкальный продюсер и один из
+              основателей жанра эмбиент Брайан Ино и мультимедиа-художник Питер
+              Шмидт.
+            </p>
+          </div>
+          <figure class="content--figure">
             <picture>
               <source
                 srcset="./images/cards-1x.avif 1x, ./images/cards-2x.avif 2x"
@@ -107,94 +88,105 @@
                 type="image/webp"
               />
               <img
-                class="article--image"
+                class="content--picture"
                 src="./images/cards-1x.png"
                 srcset="./images/cards-1x.png, ./images/cards-2x.png 2x"
                 alt="Колода Oblique Strategies"
               />
             </picture>
-            <figcaption class="article--image-description">
+            <figcaption class="content--picture-caption">
               Колода Oblique Strategies
             </figcaption>
           </figure>
-          <p class="article--text">
-            Oblique Strategies в основном используют музыканты, но колода
-            подходит для преодоления творческого кризиса в любой сфере. Её
-            рекомендуют писателям, продакт-менеджерам, художникам и
-            разработчикам.
-          </p>
-          <p class="article--text">
-            Колода состоит из ста с лишним карточек, на которых написано всего
-            по одной фразе. Часто — довольно абстрактной. Например, «Какую
-            ошибку вы совершили в прошлый раз?» или «Замените двусмысленность на
-            конкретику», или даже «Добавьте что-то ещё». Эти фразы и надо
-            применять к проблеме или творческому блоку. Каким именно способом?
-            Решаете только вы.
-          </p>
+          <div class="content--text">
+            <p class="content--paragraph">
+              Oblique Strategies в основном используют музыканты, но колода
+              подходит для преодоления творческого кризиса в любой сфере. Её
+              рекомендуют писателям, продакт-менеджерам, художникам и
+              разработчикам.
+            </p>
+            <p class="content--paragraph">
+              Колода состоит из ста с лишним карточек, на которых написано всего
+              по одной фразе. Часто — довольно абстрактной. Например, «Какую
+              ошибку вы совершили в прошлый раз?» или «Замените двусмысленность
+              на конкретику», или даже «Добавьте что-то ещё». Эти фразы и надо
+              применять к проблеме или творческому блоку. Каким именно способом?
+              Решаете только вы.
+            </p>
+          </div>
         </article>
       </section>
-      <section class="how-work content-section content-section-d">
-        <article class="about--article article">
-          <header class="article--header">
-            <h2 class="article--title">Как работают «обходные стратегии»</h2>
+      <section class="content-section">
+        <article class="">
+          <header class="">
+            <h2 class="content--title heading">
+              Как работают «обходные стратегии»
+            </h2>
           </header>
-          <p class="article--text">
-            Вот что сам Брайан Ино рассказывает о создании Oblique Strategies:
-          </p>
-          <blockquote class="article--quote">
-            «Эти карты появились, потому что я оказывался в рабочих ситуациях
-            (особенно в звукозаписывающих студиях), когда из-за паники быстро
-            забывал, что кроме самых очевидных решений были и другие —
-            косвенные. И часто именно такие неочевидные способы выдавали гораздо
-            более интересные результаты, чем решения „в лоб“».
-          </blockquote>
-          <p class="article--text">
-            Таким образом, колода Ино поощряет нас видеть препятствия не как
-            тупики, а как отправные точки для поиска более интересных решений.
-          </p>
-          <p class="article--text">
-            И кстати, сейчас необязательно охотиться за редкими физическими
-            колодами Oblique Strategies — тем более, что их моментально
-            разбирают фанаты Ино. Есть довольно симпатичные
-            <a class="article--text-link" href="">веб-сайты</a> с
-            диджитал-эквивалентами карточек и приложения для
-            <a class="article--text-link" href="">iOS</a> и
-            <a class="article--text-link" href="">Android</a>.
-          </p>
-          <figure class="article--figure article--figure-wi">
-            <figcaption
-              class="article--image-description article--image-description-wi"
-            >
-              <h3 class="article--image-description-title">
-                Use an <span class="article--span accent-span">old idea</span>
-              </h3>
-              <p class="article--image-description-text">
-                Воспользуйтесь старой идеей
-              </p>
-            </figcaption>
-          </figure>
+          <div class="content--text content-first-lettered">
+            <p class="content--paragraph article--text">
+              Вот что сам Брайан Ино рассказывает о создании Oblique Strategies:
+            </p>
+            <blockquote class="content--blockquote">
+              «Эти карты появились, потому что я оказывался в рабочих ситуациях
+              (особенно в звукозаписывающих студиях), когда из-за паники быстро
+              забывал, что кроме самых очевидных решений были и другие —
+              косвенные. И часто именно такие неочевидные способы выдавали
+              гораздо более интересные результаты, чем решения „в лоб“».
+            </blockquote>
+            <p class="content--paragraph">
+              Таким образом, колода Ино поощряет нас видеть препятствия не как
+              тупики, а как отправные точки для поиска более интересных решений.
+            </p>
+            <p class="content--paragraph">
+              И кстати, сейчас необязательно охотиться за редкими физическими
+              колодами Oblique Strategies — тем более, что их моментально
+              разбирают фанаты Ино. Есть довольно симпатичные
+              <a class="content--link" href="">веб-сайты</a> с
+              диджитал-эквивалентами карточек и приложения для
+              <a
+                class="content--link"
+                href="https://apps.apple.com/us/app/oblique-strategies-se/id1104927011"
+                target="_blank"
+                >iOS</a
+              >
+              и
+              <a
+                class="content--link"
+                href="https://play.google.com/store/apps/details?id=com.monoloco.obliquestrategies&hl=en_US&gl=US&pli=1"
+                target="_blank"
+                >Android</a
+              >.
+            </p>
+          </div>
+          <article class="content--card">
+            <h3 class="content--card-title heading">
+              Use an <span class="colored-text">old idea</span>
+            </h3>
+            <p class="content--card-subtitle">Воспользуйтесь старой идеей</p>
+          </article>
         </article>
       </section>
-      <section class="who-used content-section content-section-d">
-        <article class="about--article article">
-          <header class="article--header">
-            <h2 class="article--title">Кто пользовался Oblique Strategies</h2>
+      <section class="content-section">
+        <article class="">
+          <header class="">
+            <h2 class="content--title heading">
+              Кто пользовался Oblique Strategies
+            </h2>
           </header>
-          <ul class="article--list">
-            <li class="article--list-item">
-              Дэвид Боуи во время записи Берлинской трилогии;
-            </li>
-            <li class="article--list-item">
-              Talking Heads и Дэвид Бирн в сольной карьере;
-            </li>
-            <li class="article--list-item">Coldplay;</li>
-            <li class="article--list-item">MGMT.</li>
-          </ul>
+          <div class="content--text">
+            <ul class="content--list">
+              <li class="">Дэвид Боуи во время записи Берлинской трилогии;</li>
+              <li class="">Talking Heads и Дэвид Бирн в сольной карьере;</li>
+              <li class="">Coldplay;</li>
+              <li class="">MGMT.</li>
+            </ul>
+          </div>
         </article>
       </section>
     </main>
-    <footer class="footer content-section content-section-d">
-      <h4 class="footer--title">vёrstka</h4>
+    <footer class="footer content-section">
+      <p class="footer--copyright">vёrstka</p>
     </footer>
   </body>
 </html>

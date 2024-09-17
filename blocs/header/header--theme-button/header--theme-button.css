@@ -1,0 +1,20 @@
+.header--theme-button {
+  color: inherit;
+    padding: 0;
+    border: none;
+    font-family: inherit;
+    background-color: transparent;
+    padding-inline: 8px;
+}
+
+.header--theme-button:hover {
+    cursor: pointer;
+    border-block-end: 1px solid var(--text-color);
+    opacity: 0.5;
+  }
+
+  .header--theme-button:focus-visible {
+  outline: 1px solid var(--text-color);
+  padding-inline: 2px;
+}
+

@@ -1,0 +1,7 @@
+.content--paragraph {
+  margin: 0;
+}
+
+:not(.content--text:last-of-type) .content--paragraph {
+  padding: 1.5em;
+}

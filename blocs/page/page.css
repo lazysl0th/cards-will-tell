@@ -4,29 +4,30 @@
   --dark-color: #171717;
   /*цвета для текста*/
   --darkblue-color: #312a4e;
-  --gray-color: #b3b3b3;
-  --gray-color-transprent: #b3b3b399;
   --orange-color: #ffab6b;
-  --transparent-color: #ffab6b00;
+  --gray-color: #b3b3b3;
+  --transparent-color: #0000;
   /*шрифты*/
-  --main-font: 'Raleway';
-  --accent-font: 'STIX Two Text';
-  --main-size: 18px;
-  --h1-size: 120px;
-  --h1-size320: 60px;
-  --h2-size: 30px;
-  --h3-size: 60px;
-  --main-fw: 400;
-  --accent-fw: 700;
+  --raleway: 'Raleway';
+  --stix: 'STIX Two Text';
 }
 
 .page {
-  --fp: var(--main-font);
-  --fsp: var(--main-size);
-  --fwp: var(--main-fw);
+  --main-font: var(--raleway, sans-serif);
+  --accent-font: var(--stix, serif);
+  --main-size: 18px;
+  --accent-main-size: 30px;
+  --main-fw: 400;
+  --accent-fw: 700;
+  --bg-color: var(--light-color, #fff);
+  --text-color: var(--darkblue-color, #000);
+  --accent-color: var(--orange-color, #f00);
+  --list-style-url: url(../../../images/marker-light.svg);
 
-  font-family: var(--fp, sans-serif);
-  font-size: var(--fsp, 18px);
-  font-weight: var(--fwp, 400);
   width: 100%;
+  background-color: var(--bg-color);
+  font-family: var(--main-font);
+  font-size: var(--main-size);
+  font-weight: var(--main-fw);
+  color: var(--text-color);
 }

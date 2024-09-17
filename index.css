@@ -4,66 +4,56 @@
 
 @import url(./blocs/page/page.css);
 
+@import url(./blocs/theme-dark/theme-dark.css);
+
 @import url(./blocs/header/header.css);
 
-@import url(./blocs/content-section/content-section.css);
+@import url(./blocs/content/content-section/content-section.css);
 
-@import url(./blocs/content-section/content-section-d/content-section-d.css);
+@import url(./blocs/heading/heading.css);
 
 @import url(./blocs/header/header--title/header--title.css);
 
+@import url(./blocs/header/header--logo/header--logo.css);
+
 @import url(./blocs/header/header--menu/header--menu.css);
 
-@import url(./blocs/form-switcher/form-switcher.css);
+@import url(./blocs/header/header--theme-toggler/header--theme-toggler.css);
 
-@import url(./blocs/form-switcher/form-switcher--link/form-switcher--link.css);
+@import url(./blocs/header/header--theme-button/header--theme-button.css);
 
-@import url(./blocs/form-switcher/form-switcher--image/form-switcher--image.css);
+@import url(./blocs/header/header--theme-button/header--theme-button-dark/header--theme-button-dark.css);
 
-@import url(./blocs/form-switcher/form-switcher--fieldset/form-switcher--fieldset.css);
+@import url(./blocs/header/header--theme-button/header--theme-button-is-active/header--theme-button-is-active.css);
 
-@import url(./blocs/form-switcher/form--swithcer-radio/form--switcher-radio.css);
+@import url(./blocs/content/content--text/content--text.css);
 
-@import url(./blocs/form-switcher/form-switcher--label/form-switcher--label.css);
+@import url(./blocs/content/content--paragraph/content--paragraph.css);
 
-@import url(./blocs/accent-span/accent-span.css);
+@import url(./blocs/content/content-first-lettered/content-first-lettered.css);
 
-@import url(./blocs/visually-hidden/visually-hidden.css);
+@import url(./blocs/content/content--title/content--title.css);
 
-@import url(./blocs/intro/intro.css);
+@import url(./blocs/content/content--figure/content--figure.css);
 
-@import url(./blocs/article/article.css);
+@import url(./blocs/content/content--picture/content--picture.css);
 
-@import url(./blocs/article/article-wp/article-wp.css);
+@import url(./blocs/content/content--picture-cation/content--picture-caption.css);
 
-@import url(./blocs/article/article--title/article--title.css);
+@import url(./blocs/content/content--blockquote/content--blockquote.css);
 
-@import url(./blocs/article/article--text/article--text.css);
+@import url(./blocs/colored-text/colored-text.css);
 
-@import url(./blocs/article/article--figure/article--figure.css);
+@import url(./blocs/content/content--link/content--link.css);
 
-@import url(./blocs/article/article--image-description/article--image-description.css);
+@import url(./blocs/content/content--card/content--card.css);
 
-@import url(./blocs/article/article--quote/article--quote.css);
+@import url(./blocs/content/content--card-title/content--card-title.css);
 
-@import url(./blocs/article/article--text-link/article--text-link.css);
+@import url(.//blocs/content/content--card-subtitle/content--card-subtitle.css);
 
-@import url(./blocs/article/article--image-description-title/article--image-description-title.css);
-
-@import url(./blocs/article/article--span/article--span.css);
-
-@import url(./blocs/article/article--image-description-text/article--image-description-text.css);
-
-@import url(./blocs/article/article--list/article--list.css);
-
-@import url(./blocs/article/article--list-item/article--list-item.css);
-
-@import url(./blocs/about/about.css);
-
-@import url(./blocs/how-work/how-work.css);
-
-@import url(./blocs/who-used/who-used.css);
+@import url(./blocs/content/content--list/content--list.css);
 
 @import url(./blocs/footer/footer.css);
 
-@import url(./blocs/footer/footer--title/footer-title.css);
+@import url(./blocs/footer/footer--copyright/footer--copyright.css);

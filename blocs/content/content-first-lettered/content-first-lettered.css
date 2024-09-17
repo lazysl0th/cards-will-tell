@@ -1,0 +1,12 @@
+.content-first-lettered .content--paragraph:first-of-type::first-letter {
+  background-color: var(--accent-color);
+  font-weight: var(--accent-fw);
+  font-size: var(--accent-main-size);
+  padding: 0 4px;
+  margin-inline-end: 1px;
+  display: inline-block;
+}
+
+.theme-dark .content-first-lettered .content--paragraph:first-of-type::first-letter {
+  border: 1px solid var(--text-color);
+}

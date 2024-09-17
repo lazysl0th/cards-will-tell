@@ -1,0 +1,20 @@
+.colored-text {
+  position: relative;
+  white-space: nowrap;
+}
+
+.colored-text::after {
+  content: '';
+  position: absolute;
+  width: 105%;
+  height: 25%;
+  top: 55%;
+  left: -6px;
+  background-color: var(--accent-color);
+  z-index: -1;
+  }
+
+ .theme-dark .colored-text::after {
+    background-image: url(../../images/pattern.svg);
+}
+  

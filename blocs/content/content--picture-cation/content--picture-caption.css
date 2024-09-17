@@ -1,0 +1,14 @@
+.content--picture-caption {
+  padding-block: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+/*
+.article--image-description-wi {
+  padding-block: 0;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+}*/

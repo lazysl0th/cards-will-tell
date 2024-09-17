@@ -1,0 +1,13 @@
+.content--link {
+  color: inherit;
+}
+
+.content--link:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.content--link:focus-visible {
+  outline: 1px solid var(--text-color);
+  padding-inline: 4px;
+}

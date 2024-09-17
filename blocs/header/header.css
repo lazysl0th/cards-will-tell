@@ -1,14 +1,3 @@
 .header {
-  --ft: var(--accent-font);
-  --fst: var(--h1-size);
-  --fst320: var(--h1-size320);
-
-  padding: 144px 0 46px;
-}
-
-@media screen and (max-width: 635px) {
-
-  .header {
-    padding: 36px 0 13px;
-  }
+  padding: 10% 0 46px;
 }

@@ -1,0 +1,22 @@
+.content--list {
+  margin: 0;
+  padding-inline-start: 40px;
+  list-style: none;
+  position: relative;
+}
+
+.content--list > ::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-image: var(--list-style-url);
+  background-size: cover;
+  position: absolute;
+  left: 15px;
+  margin-block-start: 3px;
+  box-sizing: border-box;
+}
+
+.content--list > :not(:last-child) {
+  padding-block-end: 10px;
+}
