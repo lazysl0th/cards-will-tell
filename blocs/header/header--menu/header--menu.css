@@ -4,3 +4,10 @@
   padding: 19px 72px;
   border-block: 1px solid var(--bchm, #312a4e);
 }
+
+@media screen and (max-width: 635px) {
+
+  .header--menu {
+    padding: 20px 18px;
+  }
+}

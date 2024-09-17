@@ -12,7 +12,7 @@
   --asbgcd2: transparent;
   --lstsul: url(../../../images/marker-light.svg);
 
-  width: clamp(320px, 100%, 1440px);
+  width: clamp(360px, 100%, 1440px);
   margin: auto;
   background-color: var(--bgcs, #f3efec);
   color: var(--tcs, #312a4e);

@@ -9,3 +9,10 @@
   min-height: 972px;
   align-items: center;
 }
+
+@media screen and (max-width: 635px) {
+
+  .article--figure-wi {
+    min-height: 245px;
+  }
+}

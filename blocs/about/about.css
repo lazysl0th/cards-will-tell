@@ -2,3 +2,11 @@
   padding-block-start: 45px;
   padding-block-end: 46px;
 }
+
+@media screen and (max-width: 635px) {
+
+  .about {
+    padding-block-start: 10px;
+    padding-block-end: 13px;
+  }
+}

@@ -1,11 +1,16 @@
 .header--title {
-  --ft: var(--accent-font);
-  --fst: var(--h1-size);
-
   font-family: var(--ft, serif);
   font-size: var(--fst, 120px);
   line-height: 90%;
   margin: 0;
   text-align: center;
   padding-block-end: 40px;
+}
+
+@media screen and (max-width: 635px) {
+
+  .header--title {
+    font-size: var(--fst320);
+    padding-inline: 18px;
+  }
 }

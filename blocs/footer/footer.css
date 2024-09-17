@@ -4,3 +4,10 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 635px) {
+
+  .footer {
+    padding-block: 9px;
+  }
+}

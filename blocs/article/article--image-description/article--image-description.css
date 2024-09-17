@@ -4,6 +4,7 @@
 }
 
 .article--image-description-wi {
+  padding-block: 0;
   flex-direction: column;
   display: flex;
   justify-content: center;
