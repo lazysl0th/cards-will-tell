@@ -1,0 +1,6 @@
+.theme-dark {
+  --bg-color: var(--dark-color, #000);
+  --text-color: var(--gray-color, #fff);
+  --accent-color: var(--transparent-color, #0000);
+  --list-style-url: url(../../../images/marker-dark.svg);
+}
